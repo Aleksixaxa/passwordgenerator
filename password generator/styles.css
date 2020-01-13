@@ -12,7 +12,7 @@ body{ /*?change color to something else ( doesnt suit)
     
 }
 #miku {
-    width: 10%;
+    width: 20%;
     -webkit-transform:rotate(270deg);
     -moz-transform: rotate(270deg);
     -ms-transform: rotate(270deg);

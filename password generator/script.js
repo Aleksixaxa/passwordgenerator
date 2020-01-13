@@ -18,7 +18,6 @@ function randPass(length){ //picks and makes the random password
 
 };
 
-
 char8.addEventListener('click', function generatePswd(){
     area.textContent = randPass(8)
 });
@@ -45,6 +44,8 @@ copyText.addEventListener('click', function moi(){//!idk how fam but it works?
 
     try{
         document.execCommand('copy'); //copies the text
+        area.textContent = 'Copied!'
+
     } catch{
         console.log('umm what?');
     };
