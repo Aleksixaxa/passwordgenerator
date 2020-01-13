@@ -1,0 +1,62 @@
+* {
+    font-family: Garamond;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{ /*?change color to something else ( doesnt suit)
+    width: 100%;
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+#miku {
+    width: 10%;
+    -webkit-transform:rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+#buttons button {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 13px;
+    /* border-color: #4C9B9B; */
+    /* border-width: 3px; */
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(228, 88, 197);
+    border: none;
+    margin-bottom: 15px;
+}
+#buttons button:hover {
+    opacity: 0.80;
+    background-color:rgb(252, 166, 233); 
+}
+#pswdarea{
+    background-color: rgb(228, 88, 197); 
+    text-align: center;
+    font-size: 40px;
+}
+#copytext{
+    font-size: 25px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 13px;
+    border-color: rgba(248, 146, 226, 0.568); 
+    border-width: 3px;
+    cursor: pointer;
+    margin-left: 45%;
+    background-color: rgb(228, 88, 197); 
+    border-style: solid;
+    margin-top: 20px;
+}
+#copytext:hover{
+    opacity: 0.80;
+    background-color:rgb(252, 166, 233); 
+}
