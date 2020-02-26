@@ -34,7 +34,7 @@ char32.addEventListener('click', function generatePswd(){
     area.textContent = randPass(32)
 });
 
-copyText.addEventListener('click', function moi(){//!idk how fam but it works?
+copyText.addEventListener('click', function moi(){ //copy the teksti
     const selection = window.getSelection();
     const range = document.createRange();
     
